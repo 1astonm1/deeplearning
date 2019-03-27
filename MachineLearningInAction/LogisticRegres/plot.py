@@ -37,3 +37,11 @@ type3 = ax.plot(x, y)
 plt.xlabel('X1')
 plt.ylabel('X2')
 plt.show()
+
+
+dataArr, labelMat = logRegres.loadDataSet()
+weights = logRegres.stocGradAscent0(array(dataArr), labelMat)
+logRegres.plotBestFit(weights)
+
+weights = logRegres.stocGradAscent0(array(dataArr), labelMat, 500)
+logRegres.plotBestFit(weights)
