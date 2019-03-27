@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MachineLearningInAction/KNN/create_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningInAction/KNN/datingclassify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningInAction/Trees/trees/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MachineLearningInAction/Trees/trees/trees-base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MachineLearningInAction/KNN/KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/shutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/shutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +22,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/deeplearning$in__1_.coverage" NAME="in (1) Coverage Results" MODIFIED="1553602115170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/deeplearning$plot.coverage" NAME="plot Coverage Results" MODIFIED="1553607982217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres" />
-    <SUITE FILE_PATH="coverage/deeplearning$init.coverage" NAME="init Coverage Results" MODIFIED="1553601792414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine learning in action/LogisticRegres" />
     <SUITE FILE_PATH="coverage/deeplearning$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1553607977496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres" />
+    <SUITE FILE_PATH="coverage/deeplearning$create_plot.coverage" NAME="create_plot Coverage Results" MODIFIED="1553654822055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/KNN" />
     <SUITE FILE_PATH="coverage/deeplearning$a.coverage" NAME="a Coverage Results" MODIFIED="1553596522556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine learning in action/LogisticRegres" />
+    <SUITE FILE_PATH="coverage/deeplearning$datingclassify.coverage" NAME="datingclassify Coverage Results" MODIFIED="1553656725179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/KNN" />
+    <SUITE FILE_PATH="coverage/deeplearning$knnBase.coverage" NAME="knnBase Coverage Results" MODIFIED="1553655770082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/KNN/knn" />
+    <SUITE FILE_PATH="coverage/deeplearning$in__1_.coverage" NAME="in (1) Coverage Results" MODIFIED="1553602115170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/deeplearning$plot.coverage" NAME="plot Coverage Results" MODIFIED="1553657182460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres" />
+    <SUITE FILE_PATH="coverage/deeplearning$init.coverage" NAME="init Coverage Results" MODIFIED="1553601792414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine learning in action/LogisticRegres" />
     <SUITE FILE_PATH="coverage/deeplearning$test.coverage" NAME="test Coverage Results" MODIFIED="1553601836578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine learning in action/LogisticRegres/Test" />
     <SUITE FILE_PATH="coverage/deeplearning$init__1_.coverage" NAME="init (1) Coverage Results" MODIFIED="1553607423144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres" />
     <SUITE FILE_PATH="coverage/deeplearning$in.coverage" NAME="in Coverage Results" MODIFIED="1553601979367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine learning in action" />
+    <SUITE FILE_PATH="coverage/deeplearning$trees_base.coverage" NAME="trees-base Coverage Results" MODIFIED="1553657411965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/Trees/trees" />
     <SUITE FILE_PATH="coverage/deeplearning$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1553602266326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/Test" />
   </component>
   <component name="FileEditorManager">
@@ -27,8 +41,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="-1296" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MachineLearningInAction/Trees/trees/trees-base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1992">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="242">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -45,23 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="102" selection-start-line="102" selection-end-line="102" />
-              <folding>
-                <element signature="e#372#391#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/testSet.txt">
+        <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/datingTestSet2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2400">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="240">
+              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -80,6 +92,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/datingclassify.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/MachineLearningInAction/Trees/trees/trees-base.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/plot.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py" root0="SKIP_INSPECTION" />
   </component>
@@ -96,10 +110,14 @@
         <option value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/Test/test.py" />
         <option value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/init.py" />
         <option value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/testSet.txt" />
-        <option value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/plot.py" />
-        <option value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py" />
         <option value="$PROJECT_DIR$/MachineLearningInAction/KNN/KNN.py" />
         <option value="$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py" />
+        <option value="$PROJECT_DIR$/MachineLearningInAction/KNN/datingclassify.py" />
+        <option value="$PROJECT_DIR$/MachineLearningInAction/KNN/create_plot.py" />
+        <option value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py" />
+        <option value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/plot.py" />
+        <option value="$PROJECT_DIR$/MachineLearningInAction/Trees/trees.py" />
+        <option value="$PROJECT_DIR$/MachineLearningInAction/Trees/trees/trees-base.py" />
       </list>
     </option>
   </component>
@@ -114,7 +132,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,30 +142,19 @@
             <path>
               <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
               <item name="MachineLearningInAction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
               <item name="MachineLearningInAction" type="462c0819:PsiDirectoryNode" />
-              <item name="KNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearningInAction" type="462c0819:PsiDirectoryNode" />
-              <item name="KNN" type="462c0819:PsiDirectoryNode" />
-              <item name="knn" type="462c0819:PsiDirectoryNode" />
+              <item name="Trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,11 +166,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\Trees\trees" />
       <recent name="E:\Project\Git\deeplearning" />
       <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\KNN\knn" />
       <recent name="E:\Project\Git\deeplearning\machine learning in action\LogisticRegres\logregres" />
       <recent name="E:\Project\Git\deeplearning\machine learning in action\LogisticRegres" />
-      <recent name="E:\Project\Git\deeplearning\machine learning in action\LogisticRegres\Test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,8 +185,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.plot">
-    <configuration name="in (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.trees-base">
+    <configuration name="create_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,12 +194,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearningInAction/KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/in.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearningInAction/KNN/create_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,7 +208,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="init (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="datingclassify" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,12 +216,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearningInAction/KNN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Project\Git\deeplearning\MachineLearningInAction\LogisticRegres\plot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearningInAction/KNN/datingclassify.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,7 +230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="knnBase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,12 +238,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearningInAction/KNN/knn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="trees-base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,12 +282,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/Test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearningInAction/Trees/trees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/Test/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearningInAction/Trees/trees/trees-base.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.trees-base" />
         <item itemvalue="Python.plot" />
-        <item itemvalue="Python.logRegres" />
-        <item itemvalue="Python.init (1)" />
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.in (1)" />
+        <item itemvalue="Python.datingclassify" />
+        <item itemvalue="Python.knnBase" />
+        <item itemvalue="Python.create_plot" />
       </list>
     </recent_temporary>
   </component>
@@ -313,22 +319,23 @@
       <workItem from="1553587880070" duration="13499000" />
       <workItem from="1553609104863" duration="1032000" />
       <workItem from="1553652661984" duration="692000" />
+      <workItem from="1553653493916" duration="3940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15223000" />
+    <option name="totallyTimeSpent" value="19163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43606558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +349,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.607413" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -357,13 +364,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/Test/test.py" />
-    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/testSet.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2400">
@@ -371,22 +371,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/datingTestSet.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/datingTestSet2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/create_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/datingclassify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="242">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/KNN/knn/knnBase.py">
+    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/LogisticRegres/logregres/logRegres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        <state relative-caret-position="-1296" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearningInAction/Trees/trees/trees-base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1992">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#372#391#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
