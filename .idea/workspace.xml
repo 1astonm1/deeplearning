@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/Session/sess_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/Variable/variable_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning/TensorflowDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Demo/TensorflowDemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/basic/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Demo/Demo.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -136,14 +130,6 @@
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
               <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="Variable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -316,23 +302,22 @@
       <workItem from="1553653493916" duration="8268000" />
       <workItem from="1553759112126" duration="736000" />
       <workItem from="1553859200052" duration="4000" />
-      <workItem from="1554027147075" duration="4019000" />
+      <workItem from="1554027147075" duration="4619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28250000" />
+    <option name="totallyTimeSpent" value="28850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17549168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3852459" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
