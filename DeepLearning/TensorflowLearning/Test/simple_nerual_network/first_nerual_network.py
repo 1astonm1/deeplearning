@@ -20,9 +20,22 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
 
 # 创建数据
 x_data = np.linspace(-1, 1, 300)[:, np.newaxis]
-noise = np.random.normal(0, 0.04, x_data.shape).astype(np.float32)
+noise = np.random.normal(0, 0.05, x_data.shape).astype(np.float32)
 y_data = np.square(x_data) - 0.5 + noise
 # 利用占位符定义我们所需的神经网络的输入 None表示给多少个sample都可以 1表示有一个特征
+# x_data = []
+# y_data = []
+# fr = open("testx.txt", "r")
+# for line in fr.readlines():
+#     lineArr = line.strip().split('\t')
+#     x_data.append(float(lineArr[0]))
+#
+# fr = open("testy.txt", "r")
+# for line in fr.readlines():
+#     lineArr = line.strip().split('\t')
+#     y_data.append(float(lineArr[0]))
+
+
 xs = tf.placeholder(tf.float32, [None, 1])
 ys = tf.placeholder(tf.float32, [None, 1])
 # 显示数据集
@@ -38,11 +51,10 @@ plt.show()
 
 def creat_nerual_network():
     l1 = add_layer(xs, 1, 10, activation_function=tf.nn.relu)
-    l2 = add_layer(l1, 10, 20, activation_function=tf.nn.relu)
-    l3 = add_layer(l2, 20, 20, activation_function=tf.nn.relu)
-    l4 = add_layer(l3, 20, 10, activation_function=tf.nn.relu)
-    l5 = add_layer(l4, 10, 5, activation_function=tf.nn.relu)
-    prediction = add_layer(l5, 5, 1, activation_function=None)
+    l2 = add_layer(l1, 10, 10, activation_function=tf.nn.relu)
+    l3 = add_layer(l2, 10, 10, activation_function=tf.nn.relu)
+    l4 = add_layer(l3, 10, 5, activation_function=tf.nn.relu)
+    prediction = add_layer(l4, 5, 1, activation_function=None)
     # 定义输出层。此时的输入就是隐藏层的输出——l1，输入有10层（隐藏层的输出层），输出有1层。
     # l1 = add_layer(xs, 1, 10, activation_function=tf.nn.relu)
     # prediction = add_layer(l1, 10, 1, activation_function=None)
@@ -60,9 +72,9 @@ def train():
     sess = tf.Session()
     sess.run(init)
 
-    for i in range(10000):
+    for i in range(100000):
         sess.run(train_step, feed_dict={xs: x_data, ys: y_data})
-        if i % 200 == 0:
+        if i % 500 == 0:
             print(sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
             try:
                 ax.lines.remove(lines[0])
@@ -79,6 +91,18 @@ def train():
     sess.close()
 
 
+def write_by_list():     # 第二种方法，直接将每一项都写入文件
+    with open("test.txt", "w") as f:
+        for i in range(0, len(x_data)):
+            f.write(str(x_data[i]))
+            f.write('\t')
+            f.write(str(y_data[i]))
+            f.write('\n')
+
+
 if __name__ == '__main__':
-    creat_nerual_network()
-    train()
+    #creat_nerual_network()
+    #train()
+    print("x_data:", x_data, "y_data:", y_data)
+    write_by_list()
+
