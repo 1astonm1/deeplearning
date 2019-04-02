@@ -24,8 +24,8 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
 # y_data = np.square(x_data) - 0.5 + noise
 # 利用占位符定义我们所需的神经网络的输入 None表示给多少个sample都可以 1表示有一个特征
 
-x_data = []
-y_data = []
+# x_data = []
+# y_data = []
 
 
 def read_data():
@@ -42,6 +42,14 @@ def read_data():
     y_data = np.array(y_data).reshape(300, 1)
     return x_data, y_data
 
+
+def write_data():     # 第二种方法，直接将每一项都写入文件
+    with open("test.txt", "w") as f:
+        for i in range(0, len(x_data)):
+            f.write(str(x_data[i]))
+            f.write('\t')
+            f.write(str(y_data[i]))
+            f.write('\n')
 
 # 显示数据集
 def display_dataset(x_data, y_data):
@@ -141,13 +149,7 @@ def train(xs, x_data, ys, y_data, ax):
     sess.close()
 
 
-def write_data():     # 第二种方法，直接将每一项都写入文件
-    with open("test.txt", "w") as f:
-        for i in range(0, len(x_data)):
-            f.write(str(x_data[i]))
-            f.write('\t')
-            f.write(str(y_data[i]))
-            f.write('\n')
+
 
 
 if __name__ == '__main__':
