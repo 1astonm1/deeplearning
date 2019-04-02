@@ -23,30 +23,29 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
 # noise = np.random.normal(0, 0.05, x_data.shape).astype(np.float32)
 # y_data = np.square(x_data) - 0.5 + noise
 # 利用占位符定义我们所需的神经网络的输入 None表示给多少个sample都可以 1表示有一个特征
-# split('[').split(']').split('[').split(']')
-# strip('[', ']').split('\t')
+
 x_data = []
 y_data = []
 fr = open("test.txt", "r")
 for line in fr.readlines():
-    lineArr = line.split('[').split(']').split('[').split(']')
-    x_data.append(float(lineArr[1]))
-    y_data.append(float(lineArr[3]))
-print(x_data, y_data)
-# fr = open("testy.txt", "r")
-# for line in fr.readlines():
-#     lineArr = line.strip().split('\t')
-#     y_data.append(float(lineArr[0]))
-
-
-# xs = tf.placeholder(tf.float32, [None, 1])
-# ys = tf.placeholder(tf.float32, [None, 1])
-# # 显示数据集
-# fig = plt.figure()
-# ax = fig.add_subplot(1, 1, 1)
-# ax.scatter(x_data, y_data)
-# plt.ion()  # 本次运行请注释，全局运行不要注释
-# plt.show()
+    lineArr = line.replace('[', '')
+    lineArr = lineArr.replace(']', '')
+    lineArr = lineArr.strip().split()
+    x_data.append(float(lineArr[0]))
+    y_data.append(float(lineArr[1]))
+x_data = np.array(x_data)
+y_data = np.array(y_data)
+x_data.reshape(300, 1)
+y_data.reshape(300, 1)
+print(x_data.shape)
+xs = tf.placeholder(tf.float32, [None, 1])
+ys = tf.placeholder(tf.float32, [None, 1])
+# 显示数据集
+fig = plt.figure()
+ax = fig.add_subplot(1, 1, 1)
+ax.scatter(x_data, y_data)
+plt.ion()  # 本次运行请注释，全局运行不要注释
+plt.show()
 
 
 # 我们开始定义隐藏层,利用之前的add_layer()函数
@@ -104,8 +103,8 @@ def write_by_list():     # 第二种方法，直接将每一项都写入文件
 
 
 if __name__ == '__main__':
-    #creat_nerual_network()
-    #train()
-    print("x_data:", x_data, "y_data:", y_data)
+    # write_by_list()
+    creat_nerual_network()
+    train()
 
 
