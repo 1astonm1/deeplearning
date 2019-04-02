@@ -13,13 +13,13 @@ def read_data():    # 读取txt文件中的数据。最大的问题是通过pyth
     y_data = []
     fr = open("dataset.txt", "r")
     for line in fr.readlines():
-        lineArr = line.replace('[', '')
-        lineArr = lineArr.replace(']', '')
-        lineArr = lineArr.strip().split()
-        x_data.append(float(lineArr[0]))
+        lineArr = line.replace('[', '')     # 去除数据集中的‘[’
+        lineArr = lineArr.replace(']', '')  # 去除数据集中的‘]’
+        lineArr = lineArr.strip().split()   # 将数据集从中间分开
+        x_data.append(float(lineArr[0]))    # 分别读取对应的部分
         y_data.append(float(lineArr[1]))
-    x_data = np.array(x_data).reshape(300, 1)
-    y_data = np.array(y_data).reshape(300, 1)
+    x_data = np.array(x_data).reshape(300, 1)   # 例如在tensorflow中对输入的形状有要求的话
+    y_data = np.array(y_data).reshape(300, 1)   # 就reshape一下
     return x_data, y_data
 
 
@@ -33,7 +33,11 @@ def write_data(x_data, y_data):     # 写入数据集，两个数据写成两行
 
 
 if __name__ == '__main__':
-    x_data, y_data = creat_dataset()
-    write_data(x_data, y_data)
+    # 创建和写入数据
+    # x_data, y_data = creat_dataset()
+    # write_data(x_data, y_data)
+    # 读取数据
+    x_data, y_data = read_data()
+    print(x_data, y_data)
 
 
