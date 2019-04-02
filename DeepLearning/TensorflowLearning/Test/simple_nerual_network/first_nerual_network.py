@@ -26,26 +26,31 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
 
 x_data = []
 y_data = []
-fr = open("test.txt", "r")
-for line in fr.readlines():
-    lineArr = line.replace('[', '')
-    lineArr = lineArr.replace(']', '')
-    lineArr = lineArr.strip().split()
-    x_data.append(float(lineArr[0]))
-    y_data.append(float(lineArr[1]))
-x_data = np.array(x_data)
-y_data = np.array(y_data)
-x_data.reshape(300, 1)
-y_data.reshape(300, 1)
-print(x_data.shape)
-xs = tf.placeholder(tf.float32, [None, 1])
-ys = tf.placeholder(tf.float32, [None, 1])
+
+
+def read_data():
+    x_data = []
+    y_data = []
+    fr = open("test.txt", "r")
+    for line in fr.readlines():
+        lineArr = line.replace('[', '')
+        lineArr = lineArr.replace(']', '')
+        lineArr = lineArr.strip().split()
+        x_data.append(float(lineArr[0]))
+        y_data.append(float(lineArr[1]))
+    x_data = np.array(x_data).reshape(300, 1)
+    y_data = np.array(y_data).reshape(300, 1)
+    return x_data, y_data
+
+
 # 显示数据集
-fig = plt.figure()
-ax = fig.add_subplot(1, 1, 1)
-ax.scatter(x_data, y_data)
-plt.ion()  # 本次运行请注释，全局运行不要注释
-plt.show()
+def display_dataset(x_data, y_data):
+    fig = plt.figure()
+    ax = fig.add_subplot(1, 1, 1)
+    ax.scatter(x_data, y_data)
+    plt.ion()  # 本次运行请注释，全局运行不要注释
+    plt.show()
+    return ax
 
 
 # 我们开始定义隐藏层,利用之前的add_layer()函数
@@ -62,13 +67,13 @@ def creat_nerual_network():
     # prediction = add_layer(l1, 10, 1, activation_function=None)
     loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - prediction), reduction_indices=[1]))
     # 计算预测值prediction和真实值的误差，对二者差的平方求和再取平均。
-    train_step = tf.train.GradientDescentOptimizer(learning_rate=0.001).minimize(loss)
+    train_step = tf.train.GradientDescentOptimizer(learning_rate=0.005).minimize(loss)
     # 梯度下降优化训练 0.1代表最小误差
 
     return train_step, loss, prediction
 
 
-def train():
+def train(xs, x_data, ys, y_data, ax):
     train_step, loss, prediction = creat_nerual_network()
     init = tf.global_variables_initializer()
     sess = tf.Session()
@@ -93,7 +98,7 @@ def train():
     sess.close()
 
 
-def write_by_list():     # 第二种方法，直接将每一项都写入文件
+def write_data():     # 第二种方法，直接将每一项都写入文件
     with open("test.txt", "w") as f:
         for i in range(0, len(x_data)):
             f.write(str(x_data[i]))
@@ -104,7 +109,11 @@ def write_by_list():     # 第二种方法，直接将每一项都写入文件
 
 if __name__ == '__main__':
     # write_by_list()
-    creat_nerual_network()
-    train()
+    x_data, y_data = read_data()
+    print(x_data.shape)
+    xs = tf.placeholder(tf.float32, [None, 1])
+    ys = tf.placeholder(tf.float32, [None, 1])
+    ax = display_dataset(x_data, y_data)
+    train(xs, x_data, ys, y_data, ax)
 
 
