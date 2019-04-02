@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/Variable/variable_base.py" line="21" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/creat_dataset_with_numpy/dataset_write_read.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/creat_dataset_with_numpy/dataset_write_read.py" afterDir="false" />
-    </list>
+    <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/creat_dataset_with_numpy/dataset_write_read.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
+            <state relative-caret-position="912">
               <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
             </state>
           </provider>
@@ -342,12 +340,12 @@
       <workItem from="1553859200052" duration="4000" />
       <workItem from="1554027147075" duration="4619000" />
       <workItem from="1554112768759" duration="7607000" />
-      <workItem from="1554190266984" duration="16705000" />
+      <workItem from="1554190266984" duration="16725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53162000" />
+    <option name="totallyTimeSpent" value="53182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -357,7 +355,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3852459" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -665,7 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/creat_dataset_with_numpy/dataset_write_read.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
+        <state relative-caret-position="912">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
         </state>
       </provider>
