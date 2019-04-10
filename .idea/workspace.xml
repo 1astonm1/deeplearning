@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/model/MyModel!.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/model/MyModel!.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/model/MyModel!.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/model/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +32,7 @@
     <SUITE FILE_PATH="coverage/deeplearning$Demo.coverage" NAME="Demo Coverage Results" MODIFIED="1554028388898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Demo" />
     <SUITE FILE_PATH="coverage/deeplearning$datingclassify.coverage" NAME="datingclassify Coverage Results" MODIFIED="1553660993484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/KNN" />
     <SUITE FILE_PATH="coverage/deeplearning$knnBase.coverage" NAME="knnBase Coverage Results" MODIFIED="1553655770082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MachineLearningInAction/KNN/knn" />
+    <SUITE FILE_PATH="coverage/deeplearning$Reload.coverage" NAME="Reload Coverage Results" MODIFIED="1554862558773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel" />
     <SUITE FILE_PATH="coverage/deeplearning$placehoder_base.coverage" NAME="placehoder_base Coverage Results" MODIFIED="1554117958148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/placeholder" />
     <SUITE FILE_PATH="coverage/deeplearning$init.coverage" NAME="init Coverage Results" MODIFIED="1553601792414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/machine learning in action/LogisticRegres" />
     <SUITE FILE_PATH="coverage/deeplearning$sess_base.coverage" NAME="sess_base Coverage Results" MODIFIED="1554030235790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Session" />
@@ -64,9 +59,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/model/checkpoint">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -129,6 +143,7 @@
         <option value="$PROJECT_DIR$/MachineLearningInAction/SVM/test.py" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py" />
+        <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py" />
       </list>
     </option>
   </component>
@@ -198,15 +213,6 @@
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
               <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
               <item name="saveModel" type="462c0819:PsiDirectoryNode" />
-              <item name="ReloadModel" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="saveModel" type="462c0819:PsiDirectoryNode" />
               <item name="save" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -228,18 +234,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\saveModel\ReloadModel" />
+      <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\SVM\svm_base" />
+      <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\SVM" />
+      <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\Test\simple_nerual_network" />
+      <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\Test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\SVM\svm_base" />
       <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\SVM" />
       <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\compare\hidden_layer" />
       <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\base" />
       <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\Demo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\SVM\svm_base" />
-      <recent name="E:\Project\Git\deeplearning\MachineLearningInAction\SVM" />
-      <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\Test\simple_nerual_network" />
-      <recent name="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\Test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,7 +261,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.save_model">
+  <component name="RunManager" selected="Python.Reload">
+    <configuration name="Reload" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="compare_hidden_layer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,28 +320,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/creat_dataset_with_numpy/dataset_write_read.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="first_nerual_network (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deeplearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\Project\Git\deeplearning\DeepLearning\TensorflowLearning\compare\hidden_layer\compare_hidden_layer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Reload" />
         <item itemvalue="Python.save_model" />
         <item itemvalue="Python.compare_hidden_layer" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.dataset_write_read" />
-        <item itemvalue="Python.first_nerual_network (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -398,17 +405,18 @@
       <workItem from="1554280010160" duration="657000" />
       <workItem from="1554385172790" duration="20000" />
       <workItem from="1554820080617" duration="1296000" />
-      <workItem from="1554860560614" duration="1650000" />
+      <workItem from="1554860560614" duration="2247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59724000" />
+    <option name="totallyTimeSpent" value="60321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -741,16 +749,6 @@
     <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/model/checkpoint">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2826">
@@ -763,6 +761,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/model/checkpoint">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
