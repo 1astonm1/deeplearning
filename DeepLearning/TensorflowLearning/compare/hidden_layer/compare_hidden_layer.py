@@ -149,13 +149,9 @@ def train(xs, x_data, ys, y_data, ax):
     sess.close()
 
 
-
-
-
 if __name__ == '__main__':
     # write_by_list()
     x_data, y_data = read_data()
-    print(x_data.shape)
     xs = tf.placeholder(tf.float32, [None, 1])
     ys = tf.placeholder(tf.float32, [None, 1])
     ax = display_dataset(x_data, y_data)
