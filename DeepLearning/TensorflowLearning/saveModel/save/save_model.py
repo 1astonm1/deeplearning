@@ -18,6 +18,7 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
         outputs = activation_function(Wx_plus_b)    # 在有激活函数下的输出
     return outputs
 
+
 def creat_nerual_network_4():
     l1 = add_layer(xs, 1, 10, activation_function=tf.nn.relu)
     l2 = add_layer(l1, 10, 10, activation_function=tf.nn.relu)
