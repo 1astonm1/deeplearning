@@ -124,7 +124,7 @@ def train(xs, x_data, ys, y_data, ax):
 
     for i in range(100000):
         sess.run(train_step, feed_dict={xs: x_data, ys: y_data})
-        if i % 500 == 0:
+        if i % 50 == 0:
             print(sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
             try:
                 ax.lines.remove(lines[0])
@@ -134,10 +134,11 @@ def train(xs, x_data, ys, y_data, ax):
             ax = fig.add_subplot(1, 1, 1)
             ax.scatter(x_data, y_data)
             prediction_value = sess.run(prediction, feed_dict={xs: x_data})
+            # print(prediction_value)
             # plot the prediction
             lines = ax.plot(x_data, prediction_value, 'r-', lw=5)
-            plt.pause(0.1)
-            plt.show()
+            # plt.pause(0.1)
+            # plt.show()
     sess.close()
 
 

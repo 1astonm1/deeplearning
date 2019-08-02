@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/deeplearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deeplearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="144">
               <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -76,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="432">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -85,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
+            <state relative-caret-position="457">
+              <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -100,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network/first_nerual_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+            <state relative-caret-position="337">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -114,11 +115,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="171">
+              <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -172,13 +173,13 @@
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network/first_nerual_network.py" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/testx.txt" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/test.txt" />
-        <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/creat_dataset_with_numpy/dataset_write_read.py" />
         <option value="$PROJECT_DIR$/MachineLearningInAction/SVM/svm_base/svm.py" />
         <option value="$PROJECT_DIR$/MachineLearningInAction/SVM/test.py" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py" />
         <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py" />
+        <option value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" />
       </list>
     </option>
   </component>
@@ -250,6 +251,42 @@
               <item name="compare" type="462c0819:PsiDirectoryNode" />
               <item name="hidden_layer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="creat_dataset_with_numpy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="saveModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorflowLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="simple_nerual_network" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,7 +296,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MachineLearning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -292,7 +329,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compare_hidden_layer">
+  <component name="RunManager" selected="Python.first_nerual_network">
     <configuration name="Reload" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -405,10 +442,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.compare_hidden_layer" />
-        <item itemvalue="Python.first_nerual_network (1)" />
-        <item itemvalue="Python.placehoder_base" />
         <item itemvalue="Python.first_nerual_network" />
+        <item itemvalue="Python.first_nerual_network (1)" />
+        <item itemvalue="Python.compare_hidden_layer" />
+        <item itemvalue="Python.placehoder_base" />
         <item itemvalue="Python.Reload" />
       </list>
     </recent_temporary>
@@ -445,16 +482,17 @@
       <workItem from="1558948608053" duration="422000" />
       <workItem from="1558956825676" duration="362000" />
       <workItem from="1559014939645" duration="17000" />
+      <workItem from="1563203677814" duration="1446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64443000" />
+    <option name="totallyTimeSpent" value="65889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15348525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2077748" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -504,9 +542,10 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/deeplearning$compare_hidden_layer.coverage" NAME="compare_hidden_layer Coverage Results" MODIFIED="1558948761135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer" />
-    <SUITE FILE_PATH="coverage/deeplearning$first_nerual_network__1_.coverage" NAME="first_nerual_network (1) Coverage Results" MODIFIED="1558948467536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network" />
+    <SUITE FILE_PATH="coverage/deeplearning$first_nerual_network__1_.coverage" NAME="first_nerual_network (1) Coverage Results" MODIFIED="1563203999389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network" />
+    <SUITE FILE_PATH="coverage/deeplearning$compare_hidden_layer.coverage" NAME="compare_hidden_layer Coverage Results" MODIFIED="1563203831779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer" />
     <SUITE FILE_PATH="coverage/deeplearning$placehoder_base.coverage" NAME="placehoder_base Coverage Results" MODIFIED="1558948453721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/placeholder" />
+    <SUITE FILE_PATH="coverage/deeplearning$first_nerual_network.coverage" NAME="first_nerual_network Coverage Results" MODIFIED="1563204449221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/machine learning in action/LogisticRegres/a.py" />
@@ -621,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/ReloadModel/Reload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="144">
           <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -631,18 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/saveModel/save/save_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="432">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network/first_nerual_network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -652,20 +681,30 @@
     <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/placeholder/placehoder_base.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py">
+    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="457">
+          <caret line="160" lean-forward="true" selection-start-line="160" selection-end-line="160" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py">
+    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network/first_nerual_network.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="148" column="16" selection-start-line="148" selection-start-column="16" selection-end-line="148" selection-end-column="16" />
+        <state relative-caret-position="337">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
