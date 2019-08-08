@@ -122,7 +122,7 @@ def train(xs, x_data, ys, y_data, ax):
     sess = tf.Session()
     sess.run(init)
 
-    for i in range(100000):
+    for i in range(10000):
         sess.run(train_step, feed_dict={xs: x_data, ys: y_data})
         if i % 50 == 0:
             print(sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
@@ -139,6 +139,8 @@ def train(xs, x_data, ys, y_data, ax):
             lines = ax.plot(x_data, prediction_value, 'r-', lw=5)
             # plt.pause(0.1)
             # plt.show()
+    writer = tf.summary.FileWriter("./logs", sess.graph)
+    writer.close()
     sess.close()
 
 
