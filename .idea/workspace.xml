@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepLearning/DatasetProcess/PrapareDataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepLearning/DatasetProcess/readAnnotations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLearning/DatasetProcess/PrapareDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/DatasetProcess/PrapareDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeepLearning/DatasetProcess/files/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/DatasetProcess/files/train.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.readAnnotations">
+  <component name="RunManager" selected="Python.PrapareDataset">
     <configuration name="PrapareDataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,8 +216,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.readAnnotations" />
         <item itemvalue="Python.PrapareDataset" />
+        <item itemvalue="Python.readAnnotations" />
         <item itemvalue="Python.VOCClassStatistics" />
         <item itemvalue="Python.first_nerual_network" />
         <item itemvalue="Python.convolutiona_neural_network" />
@@ -260,7 +259,7 @@
       <workItem from="1563203677814" duration="1446000" />
       <workItem from="1565446328412" duration="4174000" />
       <workItem from="1565502881890" duration="7733000" />
-      <workItem from="1565525096229" duration="11145000" />
+      <workItem from="1565525096229" duration="12468000" />
     </task>
     <servers />
   </component>
@@ -291,6 +290,6 @@
     <SUITE FILE_PATH="coverage/deeplearning$compare_hidden_layer.coverage" NAME="compare_hidden_layer Coverage Results" MODIFIED="1563203831779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer" />
     <SUITE FILE_PATH="coverage/deeplearning$placehoder_base.coverage" NAME="placehoder_base Coverage Results" MODIFIED="1558948453721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/placeholder" />
     <SUITE FILE_PATH="coverage/deeplearning$VOCClassStatistics.coverage" NAME="VOCClassStatistics Coverage Results" MODIFIED="1565525513472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
-    <SUITE FILE_PATH="coverage/deeplearning$PrapareDataset.coverage" NAME="PrapareDataset Coverage Results" MODIFIED="1565536421851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
+    <SUITE FILE_PATH="coverage/deeplearning$PrapareDataset.coverage" NAME="PrapareDataset Coverage Results" MODIFIED="1565539305737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
   </component>
 </project>
