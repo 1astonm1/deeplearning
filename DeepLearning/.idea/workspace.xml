@@ -32,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yolov3/YOLOv3_TensorFlow-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -57,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.variable">
+  <component name="RunManager" selected="Python.first_nerual_network">
     <configuration name="MathOperations" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.variable" />
         <item itemvalue="Python.first_nerual_network" />
+        <item itemvalue="Python.variable" />
         <item itemvalue="Python.MathOperations" />
         <item itemvalue="Python.sess_base" />
         <item itemvalue="Python.save_model" />
@@ -197,6 +197,7 @@
       <workItem from="1553587755711" duration="120000" />
       <workItem from="1565179251014" duration="4274000" />
       <workItem from="1565184356646" duration="3125000" />
+      <workItem from="1565276880022" duration="1236000" />
     </task>
     <servers />
   </component>
@@ -218,7 +219,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepLearning$compare_hidden_layer.coverage" NAME="compare_hidden_layer Coverage Results" MODIFIED="1565180239262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorflowLearning/compare/hidden_layer" />
-    <SUITE FILE_PATH="coverage/DeepLearning$first_nerual_network.coverage" NAME="first_nerual_network Coverage Results" MODIFIED="1565185095045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorflowLearning/Test/simple_nerual_network" />
+    <SUITE FILE_PATH="coverage/DeepLearning$first_nerual_network.coverage" NAME="first_nerual_network Coverage Results" MODIFIED="1565280000815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorflowLearning/Test/simple_nerual_network" />
     <SUITE FILE_PATH="coverage/DeepLearning$vectorization__1_.coverage" NAME="vectorization (1) Coverage Results" MODIFIED="1565180043240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/DeepLearning$save_model.coverage" NAME="save_model Coverage Results" MODIFIED="1565180434906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorflowLearning/saveModel/save" />
     <SUITE FILE_PATH="coverage/DeepLearning$sess_base.coverage" NAME="sess_base Coverage Results" MODIFIED="1565180598599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorflowLearning/base/Session" />

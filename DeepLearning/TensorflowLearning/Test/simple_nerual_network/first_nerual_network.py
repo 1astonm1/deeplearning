@@ -1,6 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
+from tqdm import tqdm
 
 # 神经层里常见的参数通常有weights、biases和激励函数。
 
@@ -49,7 +50,7 @@ def display_dataset(x_data, y_data):
     ax = fig.add_subplot(1, 1, 1)
     ax.scatter(x_data, y_data)
     plt.ion()  # 本次运行请注释，全局运行不要注释
-    plt.show()
+    # plt.show()
     return ax
 
 
@@ -115,14 +116,32 @@ def creat_nerual_network_4():
 
     return train_step, loss, prediction
 
+def creat_nerual_network_10():
+    l1 = add_layer(xs, 1, 10, activation_function=tf.nn.relu)
+    l2 = add_layer(l1, 10, 100, activation_function=tf.nn.relu)
+    l3 = add_layer(l2, 100, 200, activation_function=tf.nn.relu)
+    l4 = add_layer(l3, 200, 100, activation_function=tf.nn.relu)
+    l5 = add_layer(l4, 100, 50, activation_function=tf.nn.relu)
+    l6 = add_layer(l5, 50, 5, activation_function=tf.nn.relu)
+    prediction = add_layer(l6, 5, 1, activation_function=None)
+    # 定义输出层。此时的输入就是隐藏层的输出——l1，输入有10层（隐藏层的输出层），输出有1层。
+    # l1 = add_layer(xs, 1, 10, activation_function=tf.nn.relu)
+    # prediction = add_layer(l1, 10, 1, activation_function=None)
+    loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - prediction), reduction_indices=[1]))
+    # 计算预测值prediction和真实值的误差，对二者差的平方求和再取平均。
+    train_step = tf.train.GradientDescentOptimizer(learning_rate=0.00001).minimize(loss)
+    # 梯度下降优化训练 0.1代表最小误差
+
+    return train_step, loss, prediction
+
 
 def train(xs, x_data, ys, y_data, ax):
-    train_step, loss, prediction = creat_nerual_network_4()
+    train_step, loss, prediction = creat_nerual_network_10()
     init = tf.global_variables_initializer()
     sess = tf.Session()
     sess.run(init)
 
-    for i in range(10000):
+    for i in tqdm(range(1000000)):
         sess.run(train_step, feed_dict={xs: x_data, ys: y_data})
         if i % 50 == 0:
             print(sess.run(loss, feed_dict={xs: x_data, ys: y_data}))
