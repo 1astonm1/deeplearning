@@ -136,7 +136,7 @@ def creat_nerual_network_10():
 
 
 def train(xs, x_data, ys, y_data, ax):
-    train_step, loss, prediction = creat_nerual_network_10()
+    train_step, loss, prediction = creat_nerual_network_4()
     init = tf.global_variables_initializer()
     sess = tf.Session()
     sess.run(init)

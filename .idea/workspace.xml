@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf3cbb41-741c-4a1d-ac20-b22e6dba7371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DeepLearning/DatasetProcess/VOCClassStatistics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DeepLearning/Tensorflow-world/CNN/convolutiona_neural_network.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/DatasetProcess/PrapareDataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DeepLearning/DatasetProcess/readAnnotations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DeepLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network/first_nerual_network.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +71,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PythonLearn" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yolov3/YOLOv3_TensorFlow-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -105,7 +104,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.VOCClassStatistics">
+  <component name="RunManager" selected="Python.readAnnotations">
+    <configuration name="PrapareDataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/DatasetProcess/PrapareDataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="VOCClassStatistics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,28 +141,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/DatasetProcess/VOCClassStatistics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="compare_hidden_layer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deeplearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer/compare_hidden_layer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,28 +171,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="first_nerual_network (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deeplearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network/first_nerual_network.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="first_nerual_network" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deeplearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,13 +193,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="readAnnotations" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deeplearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DeepLearning/DatasetProcess/readAnnotations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.readAnnotations" />
+        <item itemvalue="Python.PrapareDataset" />
         <item itemvalue="Python.VOCClassStatistics" />
-        <item itemvalue="Python.convolutiona_neural_network" />
         <item itemvalue="Python.first_nerual_network" />
-        <item itemvalue="Python.first_nerual_network (1)" />
-        <item itemvalue="Python.compare_hidden_layer" />
+        <item itemvalue="Python.convolutiona_neural_network" />
       </list>
     </recent_temporary>
   </component>
@@ -260,12 +259,16 @@
       <workItem from="1559014939645" duration="17000" />
       <workItem from="1563203677814" duration="1446000" />
       <workItem from="1565446328412" duration="4174000" />
-      <workItem from="1565502881890" duration="5923000" />
+      <workItem from="1565502881890" duration="7733000" />
+      <workItem from="1565525096229" duration="11145000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.name" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -281,11 +284,13 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/deeplearning$first_nerual_network.coverage" NAME="first_nerual_network Coverage Results" MODIFIED="1565447388494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network" />
+    <SUITE FILE_PATH="coverage/deeplearning$first_nerual_network.coverage" NAME="first_nerual_network Coverage Results" MODIFIED="1565525443587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/Test/simple_nerual_network" />
     <SUITE FILE_PATH="coverage/deeplearning$first_nerual_network__1_.coverage" NAME="first_nerual_network (1) Coverage Results" MODIFIED="1563203999389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/first_nerual_network" />
     <SUITE FILE_PATH="coverage/deeplearning$convolutiona_neural_network.coverage" NAME="convolutiona_neural_network Coverage Results" MODIFIED="1565449845080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/Tensorflow-world/CNN" />
+    <SUITE FILE_PATH="coverage/deeplearning$readAnnotations.coverage" NAME="readAnnotations Coverage Results" MODIFIED="1565536775117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
     <SUITE FILE_PATH="coverage/deeplearning$compare_hidden_layer.coverage" NAME="compare_hidden_layer Coverage Results" MODIFIED="1563203831779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/compare/hidden_layer" />
     <SUITE FILE_PATH="coverage/deeplearning$placehoder_base.coverage" NAME="placehoder_base Coverage Results" MODIFIED="1558948453721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/TensorflowLearning/base/placeholder" />
-    <SUITE FILE_PATH="coverage/deeplearning$VOCClassStatistics.coverage" NAME="VOCClassStatistics Coverage Results" MODIFIED="1565508540378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
+    <SUITE FILE_PATH="coverage/deeplearning$VOCClassStatistics.coverage" NAME="VOCClassStatistics Coverage Results" MODIFIED="1565525513472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
+    <SUITE FILE_PATH="coverage/deeplearning$PrapareDataset.coverage" NAME="PrapareDataset Coverage Results" MODIFIED="1565536421851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepLearning/DatasetProcess" />
   </component>
 </project>
