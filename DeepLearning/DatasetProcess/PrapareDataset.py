@@ -1,4 +1,3 @@
-from DeepLearning.DatasetProcess import readAnnotations
 from lxml import etree
 import glob
 from tqdm import tqdm
