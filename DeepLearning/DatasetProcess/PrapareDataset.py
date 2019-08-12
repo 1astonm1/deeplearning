@@ -4,6 +4,7 @@ import glob
 from tqdm import tqdm
 import os.path as osp
 import os
+import shutil
 
 train_annotations_path = r"F:\Download\dataset\auto\voc\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\Annotations"
 train_path = r"F:\Download\dataset\auto\voc\VOCtrainval_11-May-2012\VOCdevkit\VOC2012\JPEGImages"
@@ -139,8 +140,8 @@ class ParDataset:
             annotations_name = self.test_annotations_path + "\\" + middlename + ".xml"
             width, height = self.get_size(annotations_name)
             output = str(image_index) + " " + jpg_path + " " + width + " " + height + " "
-            traintxt = open("./files/train.txt", "a")
-            traintxt.writelines(output)
+            valtxt = open("./files/val.txt", "a")
+            valtxt.writelines(output)
             namelist, xminlist, yminlist, xmaxlist, ymaxlist = self.get_object(annotations_name)
             length = len(namelist)
             for i in range(length):
@@ -154,15 +155,29 @@ class ParDataset:
                         class_index = j
                         continue
                 obj1 = str(class_index) + " " + xmin + " " + ymin + " " + xmax + " " + ymax + " "
-                traintxt.writelines(obj1)
-            traintxt.writelines("\r")
-            traintxt.close()
+                valtxt.writelines(obj1)
+            valtxt.writelines("\r")
+            valtxt.close()
             image_index += 1
 
+    def check_val_jpg(self):
+        count = 0
+        jpgfile_list = self.crear_testjpglist()
+        for jpgfile in tqdm(jpgfile_list):
+            midname = self.get_middlename(jpgfile)
+            annotations_file = self.test_annotations_path + "\\" + midname + ".xml"
+            if not osp.exists(annotations_file):
+                tempdir = self.testjpg_path + "\\temp"
+                if not osp.exists(tempdir):
+                    os.mkdir(tempdir)
+                new_file = tempdir + "\\" + midname + ".jpg"
+                shutil.copyfile(jpgfile, new_file)
+                os.remove(jpgfile)
 
 
 if __name__ == '__main__':
     pd = ParDataset(train_annotations_path, train_path, test_path, test_annotations_path)
+    pd.check_val_jpg()
     pd.get_Coconame()
     pd.get_traintxt()
     pd.get_valtxt()
